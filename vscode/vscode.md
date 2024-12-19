@@ -7,8 +7,7 @@
 ### Mac
 
 - 删除`VScode.app`
-- 删除`~/.vscode` `~/Library/Application Support/Code` `~/Library/Caches/com.microsoft.VSCode` `~/Library/Preferences/com.microsoft.VSCode-xxxxx` `~/Library/Logs/Code`
-
+- 删除`~/.vscode` `~/Library/Application Support/Code` `~/Library/Caches/com.microsoft.VSCode` `~/Library/Preferences/com.microsoft.VSCode-xxxxx` `~/Library/Logs/Code` `~/Library/Saved Application State/com.microsoft.VSCode.savedState`
 ## VScode
 
 1. Windows添加一个自定义系统环境变量，e.g. name = myos value = win  
