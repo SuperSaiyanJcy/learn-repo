@@ -1,0 +1,5 @@
+latex/*.aux
+latex/*.log
+latex/*.bbl
+latex/*.gz
+*.DS_Store
