@@ -8,9 +8,10 @@
 
 - 删除`VScode.app`
 - 删除`~/.vscode` `~/Library/Application Support/Code` `~/Library/Caches/com.microsoft.VSCode` `~/Library/Preferences/com.microsoft.VSCode-xxxxx` `~/Library/Logs/Code` `~/Library/Saved Application State/com.microsoft.VSCode.savedState`
+
 ## VScode
 
-1. Windows添加一个自定义系统环境变量，e.g. name = myos value = win  
+1. Windows添加一个自定义系统环境变量，系统环境变量里面新建，e.g. name = myos value = win  
 ```shell
 # cmd
 echo %myos%
@@ -42,3 +43,14 @@ $env:myos
 
 - 在标签页之间切换
 > `Ctrl(Cmd) + Tab`, `Ctrl + PageUp/PageDown`
+
+### 设置不同格式
+
+```json
+// 特定文件扩展名与特定语言模式相匹配
+"files.associations": {
+    "*.md": "markdown",
+    // "*.md": "latex"
+},
+```
+
