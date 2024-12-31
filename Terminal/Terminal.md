@@ -98,10 +98,20 @@ echo "Hello again!" >> output.txt
 # 将 echo 的输出通过管道（|）传递给另一个命令
 echo "Hello, World!" | tr 'a-z' 'A-Z'
 # 输出HELLO, WORLD!
+```
 
+#### find
 
-
-
-
-
+```shell
+# 按文件名称查找
+find /path/to/dir -name "filename"
+find /path/to/dir -name "*.txt"
+# 按文件类型
+find /path/to/dir -type f
+find /path/to/dir -type d
+# 按文件大小
+find /path/to/dir -size +100M
+find /path/to/dir -size -50k
+find /path/to/dir -size 10M
+# ......
 ```
